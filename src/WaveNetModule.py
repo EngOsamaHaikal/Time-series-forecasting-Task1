@@ -1,3 +1,5 @@
+import tensorflow as tf
+
 def seq2seq_window_dataset(series,
                            window_size,
                            batch_size=32,
